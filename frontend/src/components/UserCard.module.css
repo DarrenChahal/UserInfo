@@ -1,0 +1,30 @@
+.user-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .user-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+  }
+  
+  @media (max-width: 600px) {
+    .user-card {
+      width: 90%;
+    }
+  }
+  
+  @media (min-width: 601px) and (max-width: 900px) {
+    .user-card {
+      width: 80%;
+    }
+  }
+  
+  @media (min-width: 901px) {
+    .user-card {
+      width: 60%;
+    }
+  }
+  
